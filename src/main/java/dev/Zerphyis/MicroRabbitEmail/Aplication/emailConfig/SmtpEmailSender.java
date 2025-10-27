@@ -1,9 +1,10 @@
-package dev.Zerphyis.MicroRabbitEmail.Infra.config.email;
+package dev.Zerphyis.MicroRabbitEmail.Aplication.emailConfig;
 
+import dev.Zerphyis.MicroRabbitEmail.Aplication.service.EmailService;
 import dev.Zerphyis.MicroRabbitEmail.Domain.model.Email;
 import org.springframework.mail.SimpleMailMessage;
 
-public class SmtpEmailSender implements EmailService{
+public class SmtpEmailSender implements EmailService {
     private final JavaMailSenderAdapter javaMailSenderAdapter;
 
 

@@ -1,4 +1,4 @@
-package dev.Zerphyis.MicroRabbitEmail.Infra.config.email;
+package dev.Zerphyis.MicroRabbitEmail.Aplication.emailConfig;
 
 import org.springframework.mail.SimpleMailMessage;
 
