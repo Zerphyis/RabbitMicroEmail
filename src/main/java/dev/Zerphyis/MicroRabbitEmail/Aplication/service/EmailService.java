@@ -1,7 +1,7 @@
 package dev.Zerphyis.MicroRabbitEmail.Aplication.service;
 
-import dev.Zerphyis.MicroRabbitEmail.Domain.model.Email;
+import dev.Zerphyis.MicroRabbitEmail.Infra.coreEntity.EmailEntity;
 
 public interface EmailService {
-        void sendEmail(Email email);
+        void sendEmail(EmailEntity email);
 }
