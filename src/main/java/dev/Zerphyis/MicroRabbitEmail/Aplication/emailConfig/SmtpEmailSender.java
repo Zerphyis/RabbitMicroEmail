@@ -1,7 +1,7 @@
 package dev.Zerphyis.MicroRabbitEmail.Aplication.emailConfig;
 
 import dev.Zerphyis.MicroRabbitEmail.Aplication.service.EmailService;
-import dev.Zerphyis.MicroRabbitEmail.Domain.model.Email;
+import dev.Zerphyis.MicroRabbitEmail.Infra.coreEntity.EmailEntity;
 import org.springframework.mail.SimpleMailMessage;
 
 public class SmtpEmailSender implements EmailService {
@@ -13,7 +13,7 @@ public class SmtpEmailSender implements EmailService {
     }
 
     @Override
-    public void sendEmail(Email email) {
+    public void sendEmail(EmailEntity email) {
         SimpleMailMessage message = new SimpleMailMessage();
         message.setFrom(email.getFromAddres());
         message.setTo(email.getToAddres());
