@@ -1,4 +1,4 @@
-package dev.Zerphyis.MicroRabbitEmail.Infra.jpa;
+package dev.Zerphyis.MicroRabbitEmail.Infra.repositoryImpls;
 
 
 import dev.Zerphyis.MicroRabbitEmail.Domain.model.Email;
